@@ -46,12 +46,12 @@ void DrawGame(){
     int x,y;
 
 
-        //»­±ß½ç
+        //画边界
     for (int i=0;i<=Y_ROCK_NUM;i++){
     x=0;y=i;
     COORD coord = { x, y };
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
-    printf("¡õ");
+    printf("□");
 
     }
 
@@ -61,7 +61,7 @@ void DrawGame(){
     x=X_ROCK_NUM*2+2;y=i;
     COORD coord = { x, y };
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
-    printf("¡õ");
+    printf("□");
 
     }
 
@@ -69,7 +69,7 @@ void DrawGame(){
     x=i;y=Y_ROCK_NUM;
     COORD coord = { x, y };
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
-    printf("¡õ");
+    printf("□");
 
     }
 
