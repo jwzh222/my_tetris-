@@ -25,3 +25,5 @@ unsigned int bit_value;
 // game_board[][] is used for identify the board of our game in screen,
 // and let computer know if this place is occupied by other rocks or not
 int game_board[2*X_ROCK_NUM+3][Y_ROCK_NUM+1];
+
+![image](https://github.com/jwzh222/my_tetris-/raw/master/Image.png)
